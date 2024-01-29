@@ -1,0 +1,221 @@
+/* 
+    Style css
+    Esercizio n. 2 
+    Author: Gianluca Chiaravalloti
+    data: 25.01.2024
+    rev.: 1.0.0
+*/
+
+/* 
+    Reset CSS
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    /* Google fonts */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ------------------------------ end */
+
+/* Header */
+
+body {
+    background-color: #eaeded;
+}
+
+#logo {
+    background-color: #222f3e;
+}
+
+#logo img {
+    width: 100px;
+    margin: 15px 30px;
+}
+
+#menu {
+    background-color: #354758;
+}
+
+#menu ul { 
+    padding: 5px;
+}
+
+#menu ul li {
+    display: inline;
+    margin: 0;
+    font-size: 0.9em;
+    margin-left: 10px;
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* ------------------------------ end */
+
+/* Main */
+
+main {
+    margin: 20px;
+}
+
+h3 {
+    text-align: center;
+    color: #ffffff;
+    background-color: #f56600;
+    padding: 5px;
+}
+
+.banner1 {
+    background-image: url(../img/bg-image.png);
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 20px;
+    padding: 50px; 
+}
+
+h1 {
+    margin: auto;
+}
+
+h4 {
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.gift {
+    background-color: #ffffff;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.gift h4 {
+    text-align: left;
+    padding: 5px 10px;
+}
+
+span {
+    color: #017185;
+    margin-left: 10px;
+    font-size: 0.9em;
+}
+
+.gift img {
+    border-radius: 30px;
+    width: 430px;
+    height: 450px;
+    margin: 0 10px 10px 10px;
+}
+
+.banner2 img {
+    width: 100%;
+}
+
+.banner2 h4 {
+    text-align: center;
+}
+
+.banner3 img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.banner3 h4 {
+    text-align: center;
+}
+
+/* ------------------------------ end */
+
+/* Footer */
+
+.back {
+    background-color: #354758;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+.back a {
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+
+.logo {
+    background-color: #222f3e;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.logo img {
+    width: 150px;
+    align-items: center;
+}
+
+/* ------------------------------ end */
+
+/* Section extra - Section banner 4 */
+
+.banner4 {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.section_banner4 {
+    background-color: #ffffff;
+    width: 25%;
+    height: auto;
+    margin: 10px;
+    padding: 20px;
+}
+
+.section_banner4 h2 {
+    text-align: left;
+}
+
+.section_banner4 .img {
+    width: 130px;
+    height: auto;
+    display: inline-block; 
+    position: relative;
+    margin: 0 10px;
+}
+
+.section_banner4 .img img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.section_banner4 .img h5 {
+    text-align: left;
+}
+
+.section_banner4 img.new {
+    position: absolute;
+    width: 50px;
+    right: -20px;
+    bottom: 10px;
+}
+
+.section_banner4 p {
+    margin: 20px 0;
+}
+
+.section_banner4 h4 {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.section_banner4 h4 a {
+    color: #017185;
+}
+
+/* ------------------------------ end */
